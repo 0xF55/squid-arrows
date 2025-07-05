@@ -12,10 +12,6 @@ If you lose, the game might... "celebrate" it in its own way.
 
 🛠️ Build and Run
 
-Linux:
-  gcc main.c -o squid_arrow -lraylib -lm -ldl -lpthread -lGL
-  ./squid_arrow
-
 Windows:
   gcc main.c -o squid_arrow.exe -lraylib -lopengl32 -lgdi32 -lwinmm
   squid_arrow.exe
